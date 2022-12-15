@@ -336,6 +336,7 @@ void FbxLoader::ParseMeshFaces(Model* model, FbxMesh* fbxMesh)
                 }
             }
 
+
             // インデックス配列に頂点インデックス追加
             // 3頂点目までなら
             if (j < 3) {
